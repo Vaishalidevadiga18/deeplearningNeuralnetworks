@@ -23,7 +23,7 @@ for gate, (X, y) in data.items():
     print(f"MLP Predictions: {y_pred}")
     print(f"True Labels: {y}")
 
-    # Single-layer perceptron (works only for linearly separable problems)
+    # Single-layer perceptron (works only for l""9999900000000000000000000000000000000000000000000000000000000000000000000000000000000000000inearly separable problems)
     perceptron = Perceptron(max_iter=100, eta0=1, random_state=42)
     perceptron.fit(X, y)
 
